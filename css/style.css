@@ -37,6 +37,9 @@
 .body-height { height: 600px}
 .big-footer-height { height: 300px}
 .footer-height { height: 50px}
+.h-150{height: 150px}
+.h-200{height: 200px}
+.h-100{height: 100px}
 
 @media screen and (max-width: 600px){
     [class*='col-']
