@@ -94,3 +94,48 @@
     }
 
 }
+.img-box{
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .detail{
+    transform: scale(1);
+}
+
+.img-box img {
+    height: 250px;
+    width: 100%;
+    transform: scale(1);
+    transition: 1s;
+}
+.img-box img:hover{
+    transform: scale(1.4);
+}
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+.box{
+    position: relative;
+    padding: 5px;
+    border: 0px;
+}
+.detail{
+    position:absolute;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+    background-color: rgba(0,0,0,0.5);
+    transform: scale(0);
+    transition: 1s;
+}
+.content {
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
